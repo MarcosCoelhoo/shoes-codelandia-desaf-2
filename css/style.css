@@ -61,4 +61,12 @@ input:focus {
   border: 0;
 }
 
-/* Header */
+/* Section Desconto */
+.desconto {
+  text-align: center;
+  background: #181818;
+  color: var(--white);
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  padding: 20px;
+}
