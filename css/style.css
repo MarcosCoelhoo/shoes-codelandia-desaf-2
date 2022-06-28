@@ -92,6 +92,7 @@ input:focus {
   padding: 125px 100px;
   background: url("/img/wallpaper.jpeg") no-repeat center;
   background-size: 100%;
+  object-fit: cover;
 }
 
 
@@ -165,3 +166,27 @@ input:focus {
   padding: 10px;
 }
 
+/* Media queries */
+@media (max-width:500px) {
+  .header {
+    padding: 100px 20px;
+  }
+
+  .header h2 {
+    font-size: 2rem;
+  }
+
+  .header p {
+    font-size: 1.2rem;
+  }
+
+  .main {
+    padding: 20px;
+  }
+}
+
+@media (max-width:400px) {
+  .header {
+    padding: 70px 20px;
+  }
+}
