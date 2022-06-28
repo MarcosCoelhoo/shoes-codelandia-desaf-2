@@ -23,6 +23,7 @@ html {
 
 body {
   font-size: 1.6rem;
+  background: var(--bg-site);
 }
 
 h1,
@@ -68,5 +69,44 @@ input:focus {
   color: var(--white);
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
-  padding: 20px;
+  font-size: 1rem;
+  padding: 10px;
+}
+
+/* Loja nome */
+.loja-nome {
+  text-align: center;
+  background: #f9f9f9;
+  padding: 10px;
+}
+
+.loja-nome h1 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 1.5rem;
+  color: var(--title);
+}
+
+/* Header */
+.header {
+  padding: 125px 100px;
+  background: url("/img/wallpaper.jpeg") no-repeat center;
+  background-size: 100%;
+}
+
+
+.header h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 2.5rem;
+  color: var(--white);
+  margin-bottom: 10px;
+}
+
+.header p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #f9f9f9;
+  line-height: 25px;
 }
