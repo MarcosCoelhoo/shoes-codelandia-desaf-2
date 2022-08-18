@@ -1,0 +1,192 @@
+/* Variáveis */
+:root {
+  --bg-site: #f6f6f6;
+  --bg-card: #ebe9ea;
+
+  --white: #fff;
+
+  --title: #181818;
+  --text: #474747;
+}
+
+/* Reset */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  background: var(--bg-site);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+ul,
+ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+button,
+input {
+  border: 0;
+}
+
+button:focus,
+input:focus {
+  border: 0;
+}
+
+/* Section Desconto */
+.desconto {
+  text-align: center;
+  background: #181818;
+  color: var(--white);
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+  padding: 10px;
+}
+
+/* Loja nome */
+.loja-nome {
+  text-align: center;
+  background: #f9f9f9;
+  padding: 10px;
+}
+
+.loja-nome h1 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 1.5rem;
+  color: var(--title);
+}
+
+/* Header */
+.header {
+  padding: 125px 100px;
+  background: url("../img/wallpaper.jpeg") no-repeat center;
+  background-size: 100%;
+  object-fit: cover;
+}
+
+
+.header h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 2.5rem;
+  color: var(--white);
+  margin-bottom: 10px;
+}
+
+.header p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #f9f9f9;
+  line-height: 25px;
+}
+
+/* Main */
+.main {
+ padding: 50px 100px;
+}
+
+.main h3 {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 2.5rem;
+  color: var(--title);
+  margin-bottom: 10px;
+}
+
+.main p {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 1.5rem;
+  color: var(--text);
+}
+
+.main-produtos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.main-produtos li {
+  width: 300px;
+  height: 300px;
+  background: var(--bg-card);
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-produtos li img {
+  width: 100%;
+}
+
+/* footer */
+.footer {
+  background: #181818;
+  color: var(--white);
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 1.3rem;
+  text-align: center;
+  padding: 10px;
+}
+
+/* Media queries */
+@media (max-width:500px) {
+  .header {
+    padding: 100px 20px;
+  }
+
+  .header h2 {
+    font-size: 2rem;
+  }
+
+  .header p {
+    font-size: 1.2rem;
+  }
+
+  .main {
+    padding: 20px;
+  }
+}
+
+@media (max-width:400px) {
+  .header {
+    padding: 70px 20px;
+  }
+}
